@@ -573,11 +573,11 @@
         <mxCell id="logn9N5EveBh-Bi82KhA-35" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
           <mxGeometry x="-391" y="-206.5" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="logn9N5EveBh-Bi82KhA-36" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CSVs&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;JSON&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;TXT&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="logn9N5EveBh-Bi82KhA-36" value="&lt;font&gt;CSVs&lt;/font&gt;&lt;div&gt;&lt;font&gt;JSON&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;TXT&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-453" y="-150" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="logn9N5EveBh-Bi82KhA-37" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Raw media files&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-401" y="-151" width="60" height="30" as="geometry" />
+        <mxCell id="logn9N5EveBh-Bi82KhA-37" value="&lt;font&gt;Raw media files&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="-157" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="logn9N5EveBh-Bi82KhA-38" value="" style="endArrow=classic;html=1;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="logn9N5EveBh-Bi82KhA-27" target="0PDAawuxjrWz-Nnf_eeG-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -719,13 +719,16 @@
           <mxGeometry x="-175.2" y="-180.2" width="145.33" height="30" as="geometry" />
         </mxCell>
         <mxCell id="logn9N5EveBh-Bi82KhA-100" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
-          <mxGeometry x="3.5" y="-213.2" width="50" height="50" as="geometry" />
+          <mxGeometry x="8.5" y="-206.5" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="logn9N5EveBh-Bi82KhA-101" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.file;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-16.729999999999897" y="-159" width="28.2" height="30" as="geometry" />
+          <mxGeometry x="-7.729999999999897" y="-159" width="28.2" height="30" as="geometry" />
         </mxCell>
         <mxCell id="logn9N5EveBh-Bi82KhA-102" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.data_table;" vertex="1" parent="1">
-          <mxGeometry x="41.5" y="-159.2" width="39.66" height="30" as="geometry" />
+          <mxGeometry x="25.5" y="-159.2" width="39.66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="logn9N5EveBh-Bi82KhA-103" value="&lt;font&gt;Joined Product Table&lt;/font&gt;&lt;div&gt;&lt;font&gt;Daily Product Trends&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Curated Parquet files&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-38.99000000000001" y="-118" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
