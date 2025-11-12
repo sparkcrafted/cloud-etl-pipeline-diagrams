@@ -129,13 +129,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-**Warren** - [GitHub Profile](https://github.com/sparkcrafted)
+**Warren Jones** - [GitHub Profile](https://github.com/sparkcrafted)
 
 ## Acknowledgments
 
 - Built with [Diagrams](https://diagrams.mingrammer.com/) by MinJae Kwon
 - Architecture based on AWS best practices for data lake design
-- Part of coursework at Morgan State University's Earl G. Graves School of Business and Management
 
 ---
 
