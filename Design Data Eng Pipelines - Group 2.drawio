@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15" version="28.2.9">
   <diagram name="Page-1" id="8oSRutCEIwnOr9rjksV9">
-    <mxGraphModel dx="1912" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3413" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,33 +101,6 @@
             <mxPoint x="-820" y="132" as="sourcePoint" />
             <mxPoint x="-695" y="131.7393643960495" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="0PDAawuxjrWz-Nnf_eeG-131" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="282" y="911.5" width="410" height="476.5" as="geometry" />
-        </mxCell>
-        <mxCell id="0PDAawuxjrWz-Nnf_eeG-132" value="Data Transformation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
-          <mxGeometry x="355" y="918" width="260" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="0PDAawuxjrWz-Nnf_eeG-133" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="702" y="911.5" width="340" height="476.5" as="geometry" />
-        </mxCell>
-        <mxCell id="0PDAawuxjrWz-Nnf_eeG-134" value="Data Consumers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
-          <mxGeometry x="787" y="918" width="206.5" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="0PDAawuxjrWz-Nnf_eeG-135" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="912" width="352" height="476" as="geometry" />
-        </mxCell>
-        <mxCell id="0PDAawuxjrWz-Nnf_eeG-136" value="Data Sources" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
-          <mxGeometry x="-50" y="918" width="252" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="0PDAawuxjrWz-Nnf_eeG-137" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;- &lt;b&gt;Apache Web Server Log Files:&lt;/b&gt;&amp;nbsp;From 4 Apache web servers. &lt;b&gt;System Owner:&amp;nbsp;&lt;/b&gt;&amp;nbsp;Natalie Rabinovich. &lt;b&gt;Data Owner:&lt;/b&gt;&amp;nbsp;Marketing.&amp;nbsp;&lt;b&gt;Ingestion:&lt;/b&gt;&amp;nbsp;Could use Kinesis Agent to transform to JSON and send to Kinesis Firehose. Firehose does validation (using Lambda function) and transforms to Parquet format. Could write direct to clean zone, partitioned by day (yyyy/mm/dd).&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;- &lt;b&gt;Databases:&lt;/b&gt;&amp;nbsp;Customers, Products, Returns, Orders on SQL Server 2016 Enterprise Edition. &lt;b&gt;System Owner:&lt;/b&gt;&amp;nbsp;Owen McClave. &lt;b&gt;Data Owner:&lt;/b&gt;&amp;nbsp;Sales Team.&amp;nbsp;Potentially use Amazon DMS to replicate to Amazon S3 raw zone in Parquet format.&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;- &lt;b&gt;Weather Data:&lt;/b&gt;&amp;nbsp;External data source available via subscription. &lt;b&gt;Data Owner:&lt;/b&gt;&amp;nbsp;Marketing. &lt;b&gt;Ingestion:&lt;/b&gt;&amp;nbsp;Available from AWS Data Exchange marketplace. Lambda function can load data into Amazon S3 raw zone when available.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-64" y="890" width="326" height="488" as="geometry" />
-        </mxCell>
-        <mxCell id="0PDAawuxjrWz-Nnf_eeG-138" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;- &lt;b&gt;Marketing Specialists:&lt;/b&gt;&amp;nbsp;Want to use business intelligence (visualization) tool to view up-to-date website analytics (ad-campaign referrals, coupon redemption, heatmap showing activity by geographic location). Refresh on at least hourly basis. Analytics team generally uses Tableau, but marketing team does not have licenses. Open to other BI tools.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;- &lt;b&gt;Data Analysts:&lt;/b&gt;&amp;nbsp;Responsible for creating reports and insights using SQL queries. Database and weather data could be refreshed daily, but they would need web server clickstream log files refreshed at least hourly.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;- &lt;b&gt;Data Scientists:&lt;/b&gt;&amp;nbsp;Need ad-hoc SQL access to databases, weather and web server log files. They currently use SparkML on-premises, but open to new cloud based tools that may make speed up delivery and collaboration for their machine learning products.&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="712" y="898" width="330" height="490" as="geometry" />
-        </mxCell>
-        <mxCell id="0PDAawuxjrWz-Nnf_eeG-139" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;- &lt;b&gt;Raw Zone:&lt;/b&gt;&amp;nbsp;Database and weather data replicated into raw zone. When files ingested triggers Lambda function to perform data quality checks and then loads into Clean Zone partitioned by yyyy/mm/dd.&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;- &lt;b&gt;Clean Zone:&lt;/b&gt;&amp;nbsp;Web server log files loaded directly into clean zone after Kinesis Firehose uses a Lambda function to perform data quality checks. Firehose configured to write to clean zone partitioned by yyyy/mm/dd. Database and weather files loaded from raw zone after data quality checks, and partition by yyyy/mm/dd.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;- &lt;b&gt;Curated Zone:&lt;/b&gt;&amp;nbsp;Database files denormalized, enriched (with weather data potentially), other business logic added. Partitioned by either day (databases, weather) or hour (web server log files)&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="292" y="898" width="400" height="430" as="geometry" />
         </mxCell>
         <mxCell id="0PDAawuxjrWz-Nnf_eeG-140" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" parent="1" vertex="1">
           <mxGeometry x="-1003" y="-262" width="50" height="50" as="geometry" />
