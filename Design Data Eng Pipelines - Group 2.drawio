@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15" version="28.2.9">
   <diagram name="Page-1" id="8oSRutCEIwnOr9rjksV9">
-    <mxGraphModel dx="2375" dy="1809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3469" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="-494" y="-410" width="624" height="669.5" as="geometry" />
         </mxCell>
         <mxCell id="0PDAawuxjrWz-Nnf_eeG-2" value="Data Transformation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
-          <mxGeometry x="-336.6" y="-390" width="240" height="20" as="geometry" />
+          <mxGeometry x="-285.33000000000004" y="-390.5" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0PDAawuxjrWz-Nnf_eeG-3" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;" parent="1" vertex="1">
           <mxGeometry x="-423" y="-74.19999999999999" width="55" height="57.2" as="geometry" />
@@ -25,7 +25,7 @@
           <mxGeometry x="17.37" y="-350" width="44.31" height="48" as="geometry" />
         </mxCell>
         <mxCell id="0PDAawuxjrWz-Nnf_eeG-7" value="Data Catalog" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-57.71" y="-380.5" width="97.72" height="20" as="geometry" />
+          <mxGeometry x="-9.71" y="-370.5" width="97.72" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0PDAawuxjrWz-Nnf_eeG-8" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;" parent="1" vertex="1">
           <mxGeometry x="-223.5" y="-72.19999999999999" width="55" height="57.2" as="geometry" />
@@ -64,7 +64,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0PDAawuxjrWz-Nnf_eeG-16" value="" style="gradientDirection=north;outlineConnect=0;fontColor=#232F3E;gradientColor=#505863;fillColor=#1E262E;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.general;" parent="1" vertex="1">
-          <mxGeometry x="-162.5" y="25.5" width="49" height="49" as="geometry" />
+          <mxGeometry x="-140.5" y="25.5" width="49" height="49" as="geometry" />
         </mxCell>
         <mxCell id="0PDAawuxjrWz-Nnf_eeG-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="163" y="-409.5" width="140" height="669.5" as="geometry" />
@@ -674,24 +674,24 @@
             <mxPoint x="25.200000000000045" y="-230.74000000000024" as="sourcePoint" />
             <mxPoint x="24.999999999999773" y="-301.9999999999999" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="25" y="-234" />
-              <mxPoint x="25" y="-234" />
+              <mxPoint x="25" y="-270" />
+              <mxPoint x="25" y="-270" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="logn9N5EveBh-Bi82KhA-86" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;Bluesky Files&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Partitioned by Date&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Parquet,&amp;nbsp;Clean&amp;nbsp;CSV,&amp;nbsp;Clean&amp;nbsp;JSON&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="logn9N5EveBh-Bi82KhA-86" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;Bluesky Files&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Partitioned by Date&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Parquet, Clean&amp;nbsp;JSON&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-178.5" y="-203" width="147.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="logn9N5EveBh-Bi82KhA-88" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-163" y="-158" width="119.16000000000005" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="logn9N5EveBh-Bi82KhA-89" value="dt=2017/08/01" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="logn9N5EveBh-Bi82KhA-88">
+        <mxCell id="logn9N5EveBh-Bi82KhA-89" value="dt=2025/10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="logn9N5EveBh-Bi82KhA-88">
           <mxGeometry x="36.53000000000006" y="19" width="82.63" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="logn9N5EveBh-Bi82KhA-90" value="dt=2016/08/01" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="logn9N5EveBh-Bi82KhA-88">
+        <mxCell id="logn9N5EveBh-Bi82KhA-90" value="dt=2025/11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="logn9N5EveBh-Bi82KhA-88">
           <mxGeometry x="36.53000000000006" y="39" width="82.63" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="logn9N5EveBh-Bi82KhA-91" value="dt=2018/08/01" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="logn9N5EveBh-Bi82KhA-88">
+        <mxCell id="logn9N5EveBh-Bi82KhA-91" value="dt=2025/09" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="logn9N5EveBh-Bi82KhA-88">
           <mxGeometry x="36.53000000000006" width="82.63" height="20" as="geometry" />
         </mxCell>
         <mxCell id="logn9N5EveBh-Bi82KhA-92" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.file;fontSize=16;" vertex="1" parent="logn9N5EveBh-Bi82KhA-88">
